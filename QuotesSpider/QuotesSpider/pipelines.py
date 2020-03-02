@@ -36,5 +36,5 @@ class mongodbPipeline(object):
         return item
 
     # 关闭MongoDB
-    def close_spider(self):
+    def close_spider(self,spider):
         self.client.close()
